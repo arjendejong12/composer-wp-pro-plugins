@@ -1,5 +1,5 @@
 {
-  "name": "junaidbhura/composer-wp-pro-plugins",
+  "name": "arjendejong12/composer-wp-pro-plugins",
   "type": "composer-plugin",
   "license": "MIT",
   "require": {
@@ -10,16 +10,20 @@
     {
       "name": "Junaid Bhura",
       "email": "info@junaidbhura.com"
+    },
+    {
+      "name": "Arjen de Jong",
+      "email": "arjen_1993@hotmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Junaidbhura\\Composer\\WPProPlugins\\": "",
-      "Junaidbhura\\Composer\\WPProPlugins\\Plugins\\": "plugins"
+      "arjendejong12\\Composer\\WPProPlugins\\": "",
+      "arjendejong12\\Composer\\WPProPlugins\\Plugins\\": "plugins"
     }
   },
   "extra": {
-    "class": "Junaidbhura\\Composer\\WPProPlugins\\Installer",
+    "class": "arjendejong12\\Composer\\WPProPlugins\\Installer",
     "plugin-modifies-downloads": true
   }
 }

@@ -2,12 +2,12 @@
 /**
  * Polylang Pro Plugin.
  *
- * @package Junaidbhura\Composer\WPProPlugins\Plugins
+ * @package arjendejong12\Composer\WPProPlugins\Plugins
  */
 
-namespace Junaidbhura\Composer\WPProPlugins\Plugins;
+namespace arjendejong12\Composer\WPProPlugins\Plugins;
 
-use Junaidbhura\Composer\WPProPlugins\Http;
+use arjendejong12\Composer\WPProPlugins\Http;
 
 /**
  * PolylangPro class.

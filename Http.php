@@ -2,10 +2,10 @@
 /**
  * Http Wrapper.
  *
- * @package Junaidbhura\Composer\WPProPlugins
+ * @package arjendejong12\Composer\WPProPlugins
  */
 
-namespace Junaidbhura\Composer\WPProPlugins;
+namespace arjendejong12\Composer\WPProPlugins;
 
 /**
  * Http class.

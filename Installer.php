@@ -2,10 +2,10 @@
 /**
  * Composer Installer for Pro WordPress Plugins.
  *
- * @package Junaidbhura\Composer\WPProPlugins
+ * @package arjendejong12\Composer\WPProPlugins
  */
 
-namespace Junaidbhura\Composer\WPProPlugins;
+namespace arjendejong12\Composer\WPProPlugins;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
@@ -240,24 +240,24 @@ class Installer implements PluginInterface, EventSubscriberInterface {
 		$package_name = $package->getName();
 
 		switch ( $package_name ) {
-			case 'junaidbhura/advanced-custom-fields-pro':
+			case 'arjendejong12/advanced-custom-fields-pro':
 				$plugin = new Plugins\AcfPro( $package->getPrettyVersion() );
 				break;
 
-			case 'junaidbhura/polylang-pro':
+			case 'arjendejong12/polylang-pro':
 				$plugin = new Plugins\PolylangPro( $package->getPrettyVersion() );
 				break;
 
-			case 'junaidbhura/wp-all-import-pro':
-			case 'junaidbhura/wp-all-export-pro':
-				$plugin = new Plugins\WpAiPro( $package->getPrettyVersion(), str_replace( 'junaidbhura/', '', $package_name ) );
+			case 'arjendejong12/wp-all-import-pro':
+			case 'arjendejong12/wp-all-export-pro':
+				$plugin = new Plugins\WpAiPro( $package->getPrettyVersion(), str_replace( 'arjendejong12/', '', $package_name ) );
 				break;
 
 			default:
-				if ( 0 === strpos( $package_name, 'junaidbhura/gravityforms' ) ) {
-					$plugin = new Plugins\GravityForms( $package->getPrettyVersion(), str_replace( 'junaidbhura/', '', $package_name ) );
-				} elseif ( 0 === strpos( $package_name, 'junaidbhura/wpai-' ) ) {
-					$plugin = new Plugins\WpAiPro( $package->getPrettyVersion(), str_replace( 'junaidbhura/', '', $package_name ) );
+				if ( 0 === strpos( $package_name, 'arjendejong12/gravityforms' ) ) {
+					$plugin = new Plugins\GravityForms( $package->getPrettyVersion(), str_replace( 'arjendejong12/', '', $package_name ) );
+				} elseif ( 0 === strpos( $package_name, 'arjendejong12/wpai-' ) ) {
+					$plugin = new Plugins\WpAiPro( $package->getPrettyVersion(), str_replace( 'arjendejong12/', '', $package_name ) );
 				}
 		}
 
