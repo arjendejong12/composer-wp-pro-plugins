@@ -240,6 +240,10 @@ class Installer implements PluginInterface, EventSubscriberInterface {
 		$package_name = $package->getName();
 
 		switch ( $package_name ) {
+			case 'arjendejong12/admin-menu-editor-pro':
+				$plugin = new Plugins\AdminMenuEditorPro( $package->getPrettyVersion() );
+				break;
+
 			case 'arjendejong12/advanced-custom-fields-pro':
 				$plugin = new Plugins\AcfPro( $package->getPrettyVersion() );
 				break;

@@ -50,6 +50,21 @@ Add the following to your composer.json file:
   {
     "type": "package",
     "package": {
+      "name": "admin-menu-editor-pro",
+      "version": "<version_number>",
+      "type": "wordpress-plugin",
+      "dist": {
+        "type": "zip",
+        "url": "https://adminmenueditor.com"
+      },
+      "require": {
+          "arjendejong12/composer-wp-pro-plugins": "*"
+      }
+    }
+  },
+  {
+    "type": "package",
+    "package": {
       "name": "arjendejong12/advanced-custom-fields-pro",
       "version": "<version_number>",
       "type": "wordpress-plugin",
@@ -154,6 +169,7 @@ Add the following to your composer.json file:
   }
 ],
 "require": {
+  "arjendejong12/admin-menu-editor-pro": "*",
   "arjendejong12/advanced-custom-fields-pro": "*",
   "arjendejong12/gravityforms": "*",
   "arjendejong12/gravityformspolls": "*",
