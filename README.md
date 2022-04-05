@@ -34,6 +34,7 @@ Create a `.env` file in the root of your WordPress site, where the `composer.jso
 
 ```
 ACF_PRO_KEY="<acf_pro_license_key>"
+AME_PRO_KEY="<ame_pro_license_key>"
 GRAVITY_FORMS_KEY="<gravity_forms_license_key>"
 POLYLANG_PRO_KEY="<polylang_pro_license_key>"
 POLYLANG_PRO_URL="<registered_url_for_polylang_pro>"
@@ -55,7 +56,7 @@ Add the following to your composer.json file:
       "type": "wordpress-plugin",
       "dist": {
         "type": "zip",
-        "url": "https://adminmenueditor.com"
+        "url": "https://adminmenueditor.com/"
       },
       "require": {
           "arjendejong12/composer-wp-pro-plugins": "*"
@@ -70,7 +71,7 @@ Add the following to your composer.json file:
       "type": "wordpress-plugin",
       "dist": {
         "type": "zip",
-        "url": "https://www.advancedcustomfields.com"
+        "url": "https://www.advancedcustomfields.com/"
       },
       "require": {
           "arjendejong12/composer-wp-pro-plugins": "*"
@@ -85,7 +86,7 @@ Add the following to your composer.json file:
       "type": "wordpress-plugin",
       "dist": {
         "type": "zip",
-        "url": "https://www.gravityforms.com"
+        "url": "https://www.gravityforms.com/"
       },
       "require": {
         "arjendejong12/composer-wp-pro-plugins": "*"
@@ -95,12 +96,12 @@ Add the following to your composer.json file:
   {
     "type": "package",
     "package": {
-      "name": "arjendejong12/gravityformspolls",
+      "name": "arjendejong12/gravityforms",
       "version": "<version_number>",
       "type": "wordpress-plugin",
       "dist": {
         "type": "zip",
-        "url": "https://www.gravityforms.com"
+        "url": "https://www.gravityforms.com/"
       },
       "require": {
         "arjendejong12/composer-wp-pro-plugins": "*"
@@ -115,7 +116,7 @@ Add the following to your composer.json file:
       "type": "wordpress-plugin",
       "dist": {
         "type": "zip",
-        "url": "https://www.polylang.pro"
+        "url": "https://www.polylang.pro/"
       },
       "require": {
         "arjendejong12/composer-wp-pro-plugins": "*"
@@ -130,7 +131,7 @@ Add the following to your composer.json file:
       "type": "wordpress-plugin",
       "dist": {
         "type": "zip",
-        "url": "https://www.wpallimport.com"
+        "url": "https://www.wpallimport.com/"
       },
       "require": {
         "arjendejong12/composer-wp-pro-plugins": "*"
@@ -145,7 +146,7 @@ Add the following to your composer.json file:
       "type": "wordpress-plugin",
       "dist": {
         "type": "zip",
-        "url": "https://www.wpallimport.com"
+        "url": "https://www.wpallimport.com/"
       },
       "require": {
         "arjendejong12/composer-wp-pro-plugins": "*"
@@ -160,7 +161,7 @@ Add the following to your composer.json file:
       "type": "wordpress-plugin",
       "dist": {
         "type": "zip",
-        "url": "https://www.wpallimport.com"
+        "url": "https://www.wpallimport.com/"
       },
       "require": {
         "arjendejong12/composer-wp-pro-plugins": "*"
